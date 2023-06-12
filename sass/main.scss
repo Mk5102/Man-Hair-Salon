@@ -1,0 +1,32 @@
+@import 'mixin';
+@import 'variables';
+@import 'resets';
+
+
+.home {
+    background-image: url('/img/home background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.801);
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.278);
+    }
+
+    .content {
+        padding-top: 15%;
+        text-align: center;
+        color: aliceblue;
+
+        .left-arrow {
+            opacity: 0.502;
+            width: 54px;
+            height: 54px;
+            background-color: #fdfdfb;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+    }
+}

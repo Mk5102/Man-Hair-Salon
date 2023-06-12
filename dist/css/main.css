@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-image: url("/img/home background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.801);
+}
+.home nav {
+  background-color: rgba(0, 0, 0, 0.278);
+}
+.home .content {
+  padding-top: 15%;
+  text-align: center;
+  color: aliceblue;
+}
+.home .content .left-arrow {
+  opacity: 0.502;
+  width: 54px;
+  height: 54px;
+  background-color: #fdfdfb;
+}
+.home .content h1 {
+  font-size: 60px;
+}/*# sourceMappingURL=main.css.map */
