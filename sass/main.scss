@@ -2,12 +2,16 @@
 @import 'variables';
 @import 'resets';
 
+body {
+    font-family: "Roboto";
+}
 
 .home {
     background-image: url('/img/home background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.801);
+    padding-bottom: 20%;
 
     nav {
         background-color: rgba(0, 0, 0, 0.278);
@@ -27,6 +31,110 @@
 
         h1 {
             font-size: 60px;
+            color: #ffffff;
+            font-weight: 900;
+            font-family: "Roboto";
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            letter-spacing: 5px;
+            color: #ffffff;
+            font-weight: 900;
+            font-family: "Roboto";
+            text-align: center;
+        }
+
+        .underline {
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .underline::after {
+            content: '';
+            display: block;
+            width: 10%;
+            height: 3px;
+            background-color: #ffffff;
+            margin: 0 auto 0;
+            // text-align: center;
+            position: relative;
+        }
+
+        .appointment {
+            font-size: 22px;
+            color: #000000;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+            background-color: #ffffff;
+
+        }
+
+    }
+}
+
+
+// Welcome
+.welcome {
+    background-color: #ffffff;
+
+    // top: -20%;
+    .img {
+        width: 100%;
+
+        .Beards {
+            .men {
+                position: relative;
+                bottom: 46px;
+                text-align: center;
+                background-color: #000000d4;
+                color: white;
+                width: 96%;
+                margin-left: 2%;
+                height: 10%;
+            }
+        }
+
+        .cuts {
+
+            // img{
+            //     // colo
+            // }
+            .Hair {
+                position: relative;
+                bottom: 46px;
+                text-align: center;
+                background-color: #000000d4;
+                color: white;
+                width: 95.5%;
+                margin-left: 2%;
+                height: 10.2%;
+            }
+        }
+
+        .Moustache {
+            .Trim {
+                position: relative;
+                bottom: 46px;
+                text-align: center;
+                background-color: #000000cd;
+                color: white;
+                width: 95.5%;
+                margin-left: 2%;
+                height: 10%;
+            }
+        }
+    }
+
+    .w-text {
+        h1 {
+            font-size: 32px;
+            color: #000000;
+            font-weight: 900;
+            font-family: "Roboto";
+            // text-align: center;
         }
     }
 }

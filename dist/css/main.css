@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto";
+}
+
 .home {
   background-image: url("/img/home background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.801);
+  padding-bottom: 20%;
 }
 .home nav {
   background-color: rgba(0, 0, 0, 0.278);
@@ -26,4 +31,80 @@
 }
 .home .content h1 {
   font-size: 60px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+}
+.home .content h2 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+}
+.home .content .underline {
+  position: relative;
+  white-space: nowrap;
+}
+.home .content .underline::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 0 auto 0;
+  position: relative;
+}
+.home .content .appointment {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.welcome {
+  background-color: #ffffff;
+}
+.welcome .img {
+  width: 100%;
+}
+.welcome .img .Beards .men {
+  position: relative;
+  bottom: 46px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.831372549);
+  color: white;
+  width: 96%;
+  margin-left: 2%;
+  height: 10%;
+}
+.welcome .img .cuts .Hair {
+  position: relative;
+  bottom: 46px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.831372549);
+  color: white;
+  width: 95.5%;
+  margin-left: 2%;
+  height: 10.2%;
+}
+.welcome .img .Moustache .Trim {
+  position: relative;
+  bottom: 46px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8039215686);
+  color: white;
+  width: 95.5%;
+  margin-left: 2%;
+  height: 10%;
+}
+.welcome .w-text h1 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Roboto";
 }/*# sourceMappingURL=main.css.map */
