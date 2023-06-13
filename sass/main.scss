@@ -234,6 +234,22 @@ body {
                 position: relative;
             }
         }
+
+        .col-md-5 {
+            // flex: 0 0 auto;
+            width: 30.666667%;
+            height: 292px;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #000000;
+            border-radius: 2%;
+        }
     }
 }
 
@@ -394,5 +410,92 @@ body {
         background-color: black;
         position: relative;
         margin-left: 43.5%;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+}
+
+// Meet The Team
+
+.team {
+    text-align: center;
+    background-color: #000000;
+
+    h1 {
+        font-size: 32px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 900;
+        font-family: "Roboto";
+    }
+
+    .underline {
+        position: relative;
+        // white-space: nowrap;
+    }
+
+    .underline::after {
+        content: '';
+        display: block;
+        width: 160px;
+        height: 3px;
+        background-color: #ffffff;
+        // color: #ffffff;
+        position: relative;
+        margin-left: 44%;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .img1 img {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        border-radius: 70%;
+        width: 33%;
+        height: 80px;
+        margin-top: -36px;
+        border: 5px solid #ffffff;
+    }
+
+    .card {
+        .card-body {
+            h3 {
+                font-size: 24px;
+                line-height: 25px;
+                color: #000000;
+                font-weight: 700;
+                font-family: "Roboto";
+                text-align: center;
+            }
+
+            h6 {
+                font-size: 20px;
+                line-height: 25px;
+                color: #000000;
+                font-weight: 400;
+                font-family: "Roboto";
+                text-align: center;
+            }
+            .btn{
+                border: 3px solid black;
+                border-radius: 0;
+            }
+        }
     }
 }
