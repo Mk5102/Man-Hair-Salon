@@ -14,6 +14,7 @@ body {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.801);
   padding-bottom: 20%;
+  position: relative;
 }
 .home nav {
   background-color: rgba(0, 0, 0, 0.278);
@@ -70,6 +71,12 @@ body {
   background-color: #ffffff;
 }
 .welcome .img {
+  margin-top: -3%;
+  z-index: 0;
+  position: relative;
+  width: 100%;
+}
+.welcome .img .Beards img {
   width: 100%;
 }
 .welcome .img .Beards .men {
@@ -82,6 +89,9 @@ body {
   margin-left: 2%;
   height: 10%;
 }
+.welcome .img .cuts img {
+  width: 100%;
+}
 .welcome .img .cuts .Hair {
   position: relative;
   bottom: 46px;
@@ -91,6 +101,9 @@ body {
   width: 95.5%;
   margin-left: 2%;
   height: 10.2%;
+}
+.welcome .img .Moustache img {
+  width: 100%;
 }
 .welcome .img .Moustache .Trim {
   position: relative;
@@ -107,4 +120,148 @@ body {
   color: #000000;
   font-weight: 900;
   font-family: "Roboto";
+}
+.welcome .w-text .tech .head h1 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: right;
+  float: left;
+}
+.welcome .w-text .tech .head p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: left;
+  padding-left: 7%;
+}
+.welcome .w-text .tech .underline {
+  position: relative;
+  white-space: nowrap;
+}
+.welcome .w-text .tech .underline::after {
+  content: "";
+  display: block;
+  width: 92%;
+  height: 3px;
+  background-color: black;
+  position: relative;
+}
+.welcome .w-text .care .head h1 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: right;
+  float: left;
+}
+.welcome .w-text .care .head p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.welcome .w-text .care .underline {
+  position: relative;
+  white-space: nowrap;
+}
+.welcome .w-text .care .underline::after {
+  content: "";
+  display: block;
+  width: 92%;
+  height: 3px;
+  background-color: black;
+  position: relative;
+}
+
+.check {
+  background-color: #000000;
+}
+.check .check-img {
+  width: 100%;
+}
+.check .check-img img {
+  width: 100%;
+}
+.check .check-content {
+  text-align: center;
+}
+.check .check-content h2 {
+  padding-top: 20%;
+  font-size: 24px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.check .check-content h6 {
+  font-size: 14px;
+  letter-spacing: 11px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.check .check-content p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+.check .check-content .checkservice {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.our-service {
+  text-align: center;
+}
+.our-service .heading h1 {
+  font-size: 32px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+.our-service .heading .underline {
+  position: relative;
+}
+.our-service .heading .underline::after {
+  content: "";
+  display: block;
+  width: 13.2%;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  margin-left: 43.5%;
+}
+.our-service .heading p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

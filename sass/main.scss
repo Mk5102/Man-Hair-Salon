@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.801);
     padding-bottom: 20%;
+    position: relative;
 
     nav {
         background-color: rgba(0, 0, 0, 0.278);
@@ -82,9 +83,16 @@ body {
 
     // top: -20%;
     .img {
+        margin-top: -3%;
+        z-index: 0;
+        position: relative;
         width: 100%;
 
         .Beards {
+            img {
+                width: 100%;
+            }
+
             .men {
                 position: relative;
                 bottom: 46px;
@@ -99,9 +107,10 @@ body {
 
         .cuts {
 
-            // img{
-            //     // colo
-            // }
+            img {
+                width: 100%;
+            }
+
             .Hair {
                 position: relative;
                 bottom: 46px;
@@ -115,6 +124,10 @@ body {
         }
 
         .Moustache {
+            img {
+                width: 100%;
+            }
+
             .Trim {
                 position: relative;
                 bottom: 46px;
@@ -135,6 +148,190 @@ body {
             font-weight: 900;
             font-family: "Roboto";
             // text-align: center;
+        }
+
+        .tech {
+            .head {
+                h1 {
+                    font-size: 32px;
+                    letter-spacing: 3px;
+                    line-height: 25px;
+                    color: #000000;
+                    font-weight: 900;
+                    font-family: "Roboto";
+                    text-align: right;
+                    float: left;
+
+                }
+
+                p {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    font-weight: 400;
+                    font-family: "Roboto";
+                    text-align: left;
+                    padding-left: 7%;
+                }
+            }
+
+            .underline {
+                position: relative;
+                white-space: nowrap;
+            }
+
+            .underline::after {
+                content: '';
+                display: block;
+                width: 92%;
+                height: 3px;
+                background-color: black;
+                // margin: 0 auto 0;
+                // text-align: center;
+                position: relative;
+            }
+        }
+
+        .care {
+            .head {
+                h1 {
+                    font-size: 32px;
+                    letter-spacing: 3px;
+                    line-height: 25px;
+                    color: #000000;
+                    font-weight: 900;
+                    font-family: "Roboto";
+                    text-align: right;
+                    float: left;
+
+                }
+
+                p {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    font-weight: 400;
+                    font-family: "Roboto";
+                }
+            }
+
+            .underline {
+                position: relative;
+                white-space: nowrap;
+            }
+
+            .underline::after {
+                content: '';
+                display: block;
+                width: 92%;
+                height: 3px;
+                background-color: black;
+                // margin: 0 auto 0;
+                // text-align: center;
+                position: relative;
+            }
+        }
+    }
+}
+
+.check {
+    background-color: #000000;
+
+    .check-img {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .check-content {
+        text-align: center;
+
+        h2 {
+            padding-top: 20%;
+            font-size: 24px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+        }
+
+        h6 {
+            font-size: 14px;
+            letter-spacing: 11px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Roboto";
+        }
+
+        p {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+        }
+
+        .checkservice {
+            margin-top: 30px;
+            font-size: 22px;
+            color: #000000;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+            background-color: #ffffff;
+
+        }
+    }
+}
+
+
+.our-service {
+    text-align: center;
+
+    .heading {
+        h1 {
+            font-size: 32px;
+            line-height: 25px;
+            color: #000000;
+            font-weight: 900;
+            font-family: "Roboto";
+        }
+
+        .underline {
+            position: relative;
+            // white-space: nowrap;
+        }
+
+        .underline::after {
+            content: '';
+            display: block;
+            width: 13.2%;
+            height: 3px;
+            background-color: black;
+            // margin: 0 auto 0;
+            // text-align: center;
+            position: relative;
+            margin-left: 43.5%;
+        }
+
+        p {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #000000;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
         }
     }
 }
