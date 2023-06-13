@@ -189,6 +189,9 @@ body {
 .check {
   background-color: #000000;
 }
+.check .row {
+  --bs-gutter-x: 0rem;
+}
 .check .check-img {
   width: 100%;
 }
@@ -197,9 +200,13 @@ body {
 }
 .check .check-content {
   text-align: center;
+  padding-top: 25%;
+}
+.check .check-content a {
+  font-size: 30px;
 }
 .check .check-content h2 {
-  padding-top: 20%;
+  padding-top: 5%;
   font-size: 24px;
   line-height: 25px;
   color: #ffffff;
@@ -264,4 +271,48 @@ body {
   font-weight: 500;
   font-family: "Roboto";
   text-align: center;
+}
+
+.disc {
+  background-image: url("/img/Discount.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.disc h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+}
+.disc h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+}
+.disc button {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.shop {
+  text-align: center;
+}
+.shop .underline {
+  position: relative;
+}
+.shop .underline::after {
+  content: "";
+  display: block;
+  width: 13.2%;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  margin-left: 43.5%;
 }/*# sourceMappingURL=main.css.map */

@@ -81,7 +81,6 @@ body {
 .welcome {
     background-color: #ffffff;
 
-    // top: -20%;
     .img {
         margin-top: -3%;
         z-index: 0;
@@ -241,6 +240,11 @@ body {
 .check {
     background-color: #000000;
 
+    .row {
+
+        --bs-gutter-x: 0rem;
+    }
+
     .check-img {
         width: 100%;
 
@@ -251,9 +255,14 @@ body {
 
     .check-content {
         text-align: center;
+        padding-top: 25%;
+
+        a {
+            font-size: 30px;
+        }
 
         h2 {
-            padding-top: 20%;
+            padding-top: 5%;
             font-size: 24px;
             line-height: 25px;
             color: #ffffff;
@@ -333,5 +342,57 @@ body {
             font-family: "Roboto";
             text-align: center;
         }
+    }
+}
+
+
+.disc {
+    background-image: url('/img/Discount.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size: 36px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Roboto";
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 3px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Roboto";
+        text-align: center;
+    }
+
+    button {
+        font-size: 22px;
+        color: #000000;
+        font-weight: 500;
+        font-family: "Roboto";
+        text-align: center;
+
+    }
+}
+
+.shop {
+    text-align: center;
+
+    .underline {
+        position: relative;
+        // white-space: nowrap;
+    }
+
+    .underline::after {
+        content: '';
+        display: block;
+        width: 13.2%;
+        height: 3px;
+        background-color: black;
+        position: relative;
+        margin-left: 43.5%;
     }
 }
