@@ -15,17 +15,19 @@
 
   <!-- home -->
   <section class="home">
-    <nav class="navbar navbar-expand-lg bg-body-dark">
+    <nav class="navbar navbar-expand-lg bg-body-dark px-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./img/Logo W.png"></a>
+        <a class="navbar-brand" href="#">
+          <img src="./img/Logo W.png" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-pills  me-auto mb-2 mb-lg-0 justify-content-en">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link active bg-light" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Pages</a>
@@ -61,13 +63,38 @@
       </div>
     </nav>
 
-    <div class="content">
-      <div>
-        <h1>We Offer The Best Shave</h1>
-        <h2>YOU WANT IT WE CUT IT FOR YOU</h2>
-        <div class="underline my-5 "></div>
-        <button class="appointment px-4">MAKE AN APPOITMENT</button>
+
+    <div id="carouselExampleCaptions" class="carousel slide c-slide text-center text-light px-5">
+      <div class="carousel-inner content">
+        <div class="carousel-item active">
+          <h1>We Offer The Best Shave</h1>
+          <h2>YOU WANT IT WE CUT IT FOR YOU</h2>
+          <div class="underline my-3 "></div>
+          <button class="appointment px-4">MAKE AN APPOITMENT</button>
+        </div>
+        <div class="carousel-item content">
+          <h1>We Offer The Best Shave</h1>
+          <h2>YOU WANT IT WE CUT IT FOR YOU</h2>
+          <div class="underline my-3"></div>
+          <button class="appointment px-4">MAKE AN APPOITMENT</button>
+        </div>
+        <div class="carousel-item content">
+          <h1>We Offer The Best Shave</h1>
+          <h2>YOU WANT IT WE CUT IT FOR YOU</h2>
+          <div class="underline my-3 "></div>
+          <button class="appointment px-4">MAKE AN APPOITMENT</button>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
 
@@ -130,11 +157,11 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-5 form">
+      <div class="col-lg-5 form text-center">
         <form action="">
           <div class="">
             <a href="">
-              <img src="./img/Mustache.png" alt="">
+              <img src="./img/Mustache.png" alt="">   
             </a>
           </div>
           <input type="text" class="form-control mb-3" id="name" placeholder="Full Name">
@@ -148,14 +175,14 @@
   </section>
 
   <!-- Check Service -->
-  <section class="check my-4 py-4">
+  <section class="check my-3 py-2">
     <div class="row">
-      <div class="col-lg-6 px-5">
-        <div class="check-img py-5">
+      <div class="col-lg-6 px-3">
+        <div class="check-img py-2">
           <img src="./img/Check Service.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6 px-4">
+      <div class="col-lg-6 px-3">
         <div class="check-content">
           <a href=""><i class="fa-sharp fa-solid fa-scissors fa-rotate-90" style="color: #ffffff;"></i></a>
           <h2>Cutting Beards with Style</h2>
@@ -174,16 +201,16 @@
   </section>
 
   <!-- Our Service -->
-  <section class="our-service my-5">
+  <section class="our-service my-4">
     <div class="container">
       <div class="heading">
         <h1>Our Service</h1>
-        <div class="underline py-2"></div>
+        <div class="underline py-3"></div>
         <p class="py-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod arcu euismod nibh tincidunt.
         </p>
       </div>
-      <div class="row py-4">
+      <div class="row py-2">
         <div class="col-md-4">
           <a href=""><img src="./img/blade.png" alt=""></a>
           <h3 class="py-2">Lorem ipsum dolor sit amet</h3>
@@ -206,7 +233,7 @@
             Cras interdum conv ultrices.</p>
         </div>
       </div>
-      <div class="row py-4">
+      <div class="row py-2">
         <div class="col-md-4">
           <a href=""><img src="./img/Hair Color icon.png" alt=""></a>
           <h3 class="py-2">Lorem ipsum dolor sit amet</h3>
@@ -234,17 +261,17 @@
 
   <!-- Discount -->
   <section class="disc py-5">
-    <h2 class="pt-5">Appointment a Haircut Today and Be Sure You</h2>
+    <h2>Appointment a Haircut Today and Be Sure You</h2>
     <h1>Get 30% Discount!</h1>
     <button class="px-3" style="text-align: center;">Appointment</button>
   </section>
 
 
   <!-- Our Shop -->
-  <section class="shop py-5">
+  <section class="shop pt-3">
     <h1>Our Shop</h1>
-    <div class="underline"></div>
-    <div class="row pt-5 px-5">
+    <div class="underline py-2"></div>
+    <div class="row py-2 px-3">
       <div class="col-xl-6 ">
         <img src="./img/shop col1.png" alt="" style="width: 100%;">
       </div>
@@ -261,14 +288,14 @@
   </section>`
 
   <!-- Meet the team -->
-  <section class="team py-5">
+  <section class="team py-3">
     <h1>Meet The Team</h1>
     <div class="underline py-3"></div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod arcu euismod nibh tincidunt.
     </p>
-    <div class="row px-5 pt-4">
-      <div class="col-md-4 px-3 py-1">
+    <div class="row px-3 pt-2">
+      <div class="col-md-4 px-1 py-2">
         <div class="card">
           <div class="img"><img src="./img/Card1.png" class="card-img-top" alt="..."></div>
           <div class="img1"><img src="./img/card1-2.png" class="card-img-top" alt="..."></div>
@@ -279,7 +306,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 px-3 py-1">
+      <div class="col-md-4 px-1 py-2">
         <div class="card">
           <div class="img"><img src="./img/card2.png" class="card-img-top" alt="..."></div>
           <div class="img1"><img src="./img/card2-2.png" class="card-img-top" alt="..."></div>
@@ -290,7 +317,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 px-3 py-1">
+      <div class="col-md-4 px-1 py-2">
         <div class="card">
           <div class="img"><img src="./img/Card3.png" class="card-img-top" alt="..."></div>
           <div class="img1"><img src="./img/card3-2.png" class="card-img-top" alt="..."></div>
@@ -305,12 +332,12 @@
   </section>
 
   <!-- plans & Pricing -->
-  <section class="plans py-5">
+  <section class="plans py-3">
     <div class="container">
       <h1>Plans & Pricings</h1>
-      <div class="underline py-3"></div>
+      <div class="underline py-2"></div>
       <div class="menu">
-        <ul class="nav justify-content-center py-4">
+        <ul class="nav justify-content-center py-2">
           <li class="nav-item">
             <a class="nav-link text-dark" aria-current="page" href="#">ALL</a>
           </li>
@@ -328,7 +355,7 @@
           </li>
         </ul>
       </div>
-      <div class="row list">
+      <div class="row list pt-2">
         <div class="col-md-6">
           <p>Shampoo + Cut ......................................................... $25.00</p>
           <p>Long Layered Cut ...................................................... $28.00</p>
@@ -346,12 +373,12 @@
           <p>Color .......................................................................... $45.00</p> -->
         </div>
       </div>
-      <a href="#" class="btn btn-dark mt-3 py-2 px-5">All Prices</a>
+      <a href="#" class="btn btn-dark mt-3 py-1 px-5">All Prices</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <section class="footer">
+  <section class="footer px-2">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 row">
@@ -420,7 +447,7 @@
 
     </div>
   </section>
-  <div class="footer-text py-4 ps-5">
+  <div class="footer-text py-3 ps-3">
     Copyright © Toshal Infotech 2020, All Rights Reserved.
   </div>
 

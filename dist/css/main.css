@@ -9,35 +9,38 @@ body {
 }
 
 .home {
-  background-image: url("/img/home background.png");
-  background-repeat: no-repeat;
+  background-image: url("/img/Home Background.png");
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.801);
-  padding-bottom: 20%;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.801);
 }
 .home nav {
-  background-color: rgba(0, 0, 0, 0.278);
+  background-color: rgba(0, 0, 0, 0.63);
 }
-.home .content {
-  padding-top: 15%;
+.home .c-slide {
+  padding-top: 0%;
+  margin-top: 14%;
+  padding-bottom: 3%;
+}
+.home .c-slide .content {
   text-align: center;
   color: aliceblue;
 }
-.home .content .left-arrow {
-  opacity: 0.502;
-  width: 54px;
-  height: 54px;
-  background-color: #fdfdfb;
-}
-.home .content h1 {
+.home .c-slide .content h1 {
   font-size: 60px;
   color: #ffffff;
   font-weight: 900;
   font-family: "Roboto";
   text-align: center;
 }
-.home .content h2 {
+@media (max-width: 768px) {
+  .home .c-slide .content h1 {
+    font-size: 30px;
+  }
+}
+.home .c-slide .content h2 {
   font-size: 24px;
   letter-spacing: 5px;
   color: #ffffff;
@@ -45,11 +48,16 @@ body {
   font-family: "Roboto";
   text-align: center;
 }
-.home .content .underline {
+@media (max-width: 768px) {
+  .home .c-slide .content h2 {
+    font-size: 14px;
+  }
+}
+.home .c-slide .content .underline {
   position: relative;
   white-space: nowrap;
 }
-.home .content .underline::after {
+.home .c-slide .content .underline::after {
   content: "";
   display: block;
   width: 10%;
@@ -58,13 +66,18 @@ body {
   margin: 0 auto 0;
   position: relative;
 }
-.home .content .appointment {
+.home .c-slide .content .appointment {
   font-size: 22px;
   color: #000000;
   font-weight: 500;
   font-family: "Roboto";
   text-align: center;
   background-color: #ffffff;
+}
+@media (max-width: 768px) {
+  .home .c-slide .content .appointment {
+    font-size: 14px;
+  }
 }
 
 .welcome {
@@ -75,6 +88,11 @@ body {
   z-index: 0;
   position: relative;
   width: 100%;
+}
+@media (max-width: 427px) {
+  .welcome .img {
+    margin-top: 5%;
+  }
 }
 .welcome .img .Beards img {
   width: 100%;
@@ -322,13 +340,11 @@ body {
 .welcome .w-text .form a img {
   margin-top: -10%;
   width: 25%;
-  margin-left: 35%;
 }
 @media (max-width: 768px) {
   .welcome .w-text .form a img {
     margin-top: -7%;
     width: 20%;
-    margin-left: 38%;
   }
 }
 @media (max-width: 427px) {
@@ -528,7 +544,7 @@ body {
   margin-right: auto;
   z-index: 1;
   border-radius: 70%;
-  width: 30%;
+  width: 26%;
   height: 80px;
   margin-top: -36px;
   border: 5px solid #ffffff;
@@ -536,12 +552,17 @@ body {
 @media (max-width: 768px) {
   .team .img1 img {
     height: 57px;
-    margin-top: -30px;
+    margin-top: -28px;
   }
 }
 @media (max-width: 427px) {
   .team .img1 img {
-    width: 24%;
+    width: 18%;
+  }
+}
+@media (max-width: 320px) {
+  .team .img1 img {
+    width: 22%;
   }
 }
 .team .row {
