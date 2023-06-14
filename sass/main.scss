@@ -244,11 +244,20 @@ body {
         }
 
         .form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             border: 3px solid #000000;
             border-radius: 2%;
+            .form-control{
+                width: 80%;
+                margin-left: 9%;
+                margin-top: 5%;
+            }
+            a{
+                img{
+                    margin-top: -10%;
+                    width: 25%;
+                    margin-left: 35%;
+                }
+            }
         }
     }
 }
@@ -257,7 +266,6 @@ body {
     background-color: #000000;
 
     .row {
-
         --bs-gutter-x: 0rem;
     }
 
@@ -271,7 +279,7 @@ body {
 
     .check-content {
         text-align: center;
-        padding-top: 25%;
+        padding-top: 20%;
 
         a {
             font-size: 30px;
@@ -473,6 +481,10 @@ body {
         border: 5px solid #ffffff;
     }
 
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
     .card {
         .card-body {
             h3 {
@@ -492,9 +504,175 @@ body {
                 font-family: "Roboto";
                 text-align: center;
             }
-            .btn{
+
+            .btn {
                 border: 3px solid black;
                 border-radius: 0;
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+// Plans & Pricing
+
+.plans {
+    text-align: center;
+
+    h1 {
+        font-size: 32px;
+        line-height: 25px;
+        color: #000000;
+        font-weight: 900;
+        font-family: "Roboto";
+    }
+
+    .underline {
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .underline::after {
+        content: '';
+        display: block;
+        width: 160px;
+        height: 3px;
+        background-color: #000000;
+        margin: 0 auto 0;
+        // text-align: center;
+        position: relative;
+    }
+
+    .menu {
+        ul {
+            list-style-type: none;
+
+            li {
+                padding-right: 5%;
+                font-size: 24px;
+                line-height: 25px;
+                color: #000000;
+                font-weight: 500;
+                font-family: "Roboto";
+                text-align: center;
+            }
+        }
+    }
+
+    .list {
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+        }
+    }
+
+    .btn {
+        font-size: 22px;
+        line-height: 25px;
+        text-transform: uppercase;
+        // color: #ffffff;
+        font-weight: 500;
+        font-family: "Roboto";
+        text-align: center;
+        border-radius: 0;
+    }
+
+}
+
+
+// Footer
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+
+    .left {
+        .contact {
+            p {
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                color: #ffffff;
+                font-weight: 500;
+                font-family: "Roboto";
+            }
+        }
+
+        .icom {
+            a {
+                font-size: 25px;
+                padding-right: 2%;
+            }
+        }
+    }
+
+    .middle {
+        h5 {
+            text-transform: uppercase;
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+        }
+
+        h6 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+        }
+
+        .time {
+            p {
+                margin-bottom: 0;
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                color: #ffffff;
+                font-weight: 400;
+                font-family: "Roboto";
+            }
+        }
+    }
+
+    .right {
+        h5 {
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+        }
+
+        .blog1 {
+            p {
+                padding-left: 15px;
+                font-size: 14px;
+                letter-spacing: 0px;
+                line-height: 20px;
+                color: #999999;
+                font-weight: 500;
+                font-family: "Roboto";
+            }
+
+            h6 {
+                padding-left: 15px;
+                font-size: 16px;
+                letter-spacing: 0px;
+                line-height: 20px;
+                color: #ffffff;
+                font-weight: 500;
+                font-family: "Roboto";
             }
         }
     }

@@ -192,11 +192,18 @@ body {
   margin-top: 5%;
 }
 .welcome .w-text .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 3px solid #000000;
   border-radius: 2%;
+}
+.welcome .w-text .form .form-control {
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 5%;
+}
+.welcome .w-text .form a img {
+  margin-top: -10%;
+  width: 25%;
+  margin-left: 35%;
 }
 
 .check {
@@ -213,7 +220,7 @@ body {
 }
 .check .check-content {
   text-align: center;
-  padding-top: 25%;
+  padding-top: 20%;
 }
 .check .check-content a {
   font-size: 30px;
@@ -379,6 +386,9 @@ body {
   margin-top: -36px;
   border: 5px solid #ffffff;
 }
+.team .row {
+  --bs-gutter-x: 0rem;
+}
 .team .card .card-body h3 {
   font-size: 24px;
   line-height: 25px;
@@ -398,4 +408,127 @@ body {
 .team .card .card-body .btn {
   border: 3px solid black;
   border-radius: 0;
+  width: 50%;
+}
+
+.plans {
+  text-align: center;
+}
+.plans h1 {
+  font-size: 32px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+.plans .underline {
+  position: relative;
+  white-space: nowrap;
+}
+.plans .underline::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 3px;
+  background-color: #000000;
+  margin: 0 auto 0;
+  position: relative;
+}
+.plans .menu ul {
+  list-style-type: none;
+}
+.plans .menu ul li {
+  padding-right: 5%;
+  font-size: 24px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+.plans .list p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+.plans .btn {
+  font-size: 22px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+  border-radius: 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+.footer .left .contact p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.footer .left .icom a {
+  font-size: 25px;
+  padding-right: 2%;
+}
+.footer .middle h5 {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.footer .middle h6 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.footer .middle .time p {
+  margin-bottom: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.footer .right h5 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.footer .right .blog1 p {
+  padding-left: 15px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #999999;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.footer .right .blog1 h6 {
+  padding-left: 15px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
 }/*# sourceMappingURL=main.css.map */
