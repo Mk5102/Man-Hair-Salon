@@ -81,26 +81,88 @@ body {
 }
 .welcome .img .Beards .men {
   position: relative;
-  bottom: 46px;
+  bottom: 48px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.831372549);
   color: white;
   width: 96%;
   margin-left: 2%;
+  padding-top: 1.5%;
   height: 10%;
+}
+@media (max-width: 1024px) {
+  .welcome .img .Beards .men {
+    bottom: 40px;
+    padding-top: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .welcome .img .Beards .men {
+    bottom: 30px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 427px) {
+  .welcome .img .Beards .men {
+    bottom: 46px;
+    padding-top: 1.5%;
+  }
+}
+@media (max-width: 375px) {
+  .welcome .img .Beards .men {
+    bottom: 41px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 320px) {
+  .welcome .img .Beards .men {
+    bottom: 34px;
+    padding-top: 0;
+  }
 }
 .welcome .img .cuts img {
   width: 100%;
 }
 .welcome .img .cuts .Hair {
   position: relative;
-  bottom: 46px;
+  bottom: 47px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.831372549);
   color: white;
-  width: 95.5%;
+  width: 95.7%;
+  padding-top: 1.5%;
   margin-left: 2%;
   height: 10.2%;
+}
+@media (max-width: 1024px) {
+  .welcome .img .cuts .Hair {
+    bottom: 38px;
+    padding-top: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .welcome .img .cuts .Hair {
+    bottom: 27.5px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 427px) {
+  .welcome .img .cuts .Hair {
+    bottom: 46px;
+    padding-top: 1.5%;
+  }
+}
+@media (max-width: 375px) {
+  .welcome .img .cuts .Hair {
+    bottom: 40px;
+    padding-top: 1.5%;
+  }
+}
+@media (max-width: 320px) {
+  .welcome .img .cuts .Hair {
+    bottom: 34px;
+    padding-top: 0;
+  }
 }
 .welcome .img .Moustache img {
   width: 100%;
@@ -111,15 +173,56 @@ body {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8039215686);
   color: white;
-  width: 95.5%;
+  width: 96%;
+  padding-top: 1.5%;
   margin-left: 2%;
   height: 10%;
+}
+@media (max-width: 1024px) {
+  .welcome .img .Moustache .Trim {
+    bottom: 38px;
+    padding-top: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .welcome .img .Moustache .Trim {
+    bottom: 28px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 427px) {
+  .welcome .img .Moustache .Trim {
+    bottom: 47px;
+    padding-top: 1.5%;
+  }
+}
+@media (max-width: 375px) {
+  .welcome .img .Moustache .Trim {
+    bottom: 41px;
+    padding-top: 1.5%;
+  }
+}
+@media (max-width: 320px) {
+  .welcome .img .Moustache .Trim {
+    bottom: 33px;
+    padding-top: 0;
+  }
 }
 .welcome .w-text h1 {
   font-size: 32px;
   color: #000000;
   font-weight: 900;
   font-family: "Roboto";
+}
+@media (max-width: 427px) {
+  .welcome .w-text h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 320px) {
+  .welcome .w-text h1 {
+    font-size: 25px;
+  }
 }
 .welcome .w-text .tech .head h1 {
   font-size: 32px;
@@ -185,11 +288,27 @@ body {
   background-color: black;
   position: relative;
 }
-.welcome .w-text .col-md-5 {
+.welcome .w-text .col-lg-5 {
   width: 30.666667%;
   height: 292px;
   margin-left: 5%;
   margin-top: 5%;
+}
+@media (max-width: 1024px) {
+  .welcome .w-text .col-lg-5 {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .welcome .w-text .col-lg-5 {
+    width: 90%;
+    height: 340px;
+  }
+}
+@media (max-width: 427px) {
+  .welcome .w-text .col-lg-5 {
+    height: 300px;
+  }
 }
 .welcome .w-text .form {
   border: 3px solid #000000;
@@ -204,6 +323,33 @@ body {
   margin-top: -10%;
   width: 25%;
   margin-left: 35%;
+}
+@media (max-width: 768px) {
+  .welcome .w-text .form a img {
+    margin-top: -7%;
+    width: 20%;
+    margin-left: 38%;
+  }
+}
+@media (max-width: 427px) {
+  .welcome .w-text .form a img {
+    margin-top: -11%;
+  }
+}
+@media (max-width: 320px) {
+  .welcome .w-text .form a img {
+    margin-top: -13%;
+  }
+}
+.welcome .w-text .btn {
+  border-radius: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
 }
 
 .check {
@@ -220,7 +366,7 @@ body {
 }
 .check .check-content {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 .check .check-content a {
   font-size: 30px;
@@ -297,6 +443,7 @@ body {
   background-image: url("/img/Discount.png");
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .disc h2 {
   font-size: 36px;
@@ -381,10 +528,21 @@ body {
   margin-right: auto;
   z-index: 1;
   border-radius: 70%;
-  width: 33%;
+  width: 30%;
   height: 80px;
   margin-top: -36px;
   border: 5px solid #ffffff;
+}
+@media (max-width: 768px) {
+  .team .img1 img {
+    height: 57px;
+    margin-top: -30px;
+  }
+}
+@media (max-width: 427px) {
+  .team .img1 img {
+    width: 24%;
+  }
 }
 .team .row {
   --bs-gutter-x: 0rem;
@@ -523,6 +681,11 @@ body {
   font-weight: 500;
   font-family: "Roboto";
 }
+@media (max-width: 1024px) {
+  .footer .right .blog1 p {
+    padding-left: 0;
+  }
+}
 .footer .right .blog1 h6 {
   padding-left: 15px;
   font-size: 16px;
@@ -531,4 +694,18 @@ body {
   color: #ffffff;
   font-weight: 500;
   font-family: "Roboto";
+}
+@media (max-width: 1024px) {
+  .footer .right .blog1 h6 {
+    padding-left: 0;
+  }
+}
+
+.footer-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Myriad Pro";
 }/*# sourceMappingURL=main.css.map */

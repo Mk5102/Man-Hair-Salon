@@ -93,13 +93,39 @@ body {
             }
 
             .men {
+                @include Laptop {
+                    bottom: 40px;
+                    padding-top: 1%;
+                }
+
+                @include Tablet {
+                    bottom: 30px;
+                    padding-top: 0;
+                }
+
+                @include Mobile-L {
+                    bottom: 46px;
+                    padding-top: 1.5%;
+                }
+
+                @include Mobile-M {
+                    bottom: 41px;
+                    padding-top: 0;
+                }
+
+                @include Mobile-S {
+                    bottom: 34px;
+                    padding-top: 0;
+                }
+
                 position: relative;
-                bottom: 46px;
+                bottom: 48px;
                 text-align: center;
                 background-color: #000000d4;
                 color: white;
                 width: 96%;
                 margin-left: 2%;
+                padding-top: 1.5%;
                 height: 10%;
             }
         }
@@ -111,12 +137,38 @@ body {
             }
 
             .Hair {
+                @include Laptop {
+                    bottom: 38px;
+                    padding-top: 1%;
+                }
+
+                @include Tablet {
+                    bottom: 27.5px;
+                    padding-top: 0;
+                }
+
+                @include Mobile-L {
+                    bottom: 46px;
+                    padding-top: 1.5%;
+                }
+
+                @include Mobile-M {
+                    bottom: 40px;
+                    padding-top: 1.5%;
+                }
+
+                @include Mobile-S {
+                    bottom: 34px;
+                    padding-top: 0;
+                }
+
                 position: relative;
-                bottom: 46px;
+                bottom: 47px;
                 text-align: center;
                 background-color: #000000d4;
                 color: white;
-                width: 95.5%;
+                width: 95.7%;
+                padding-top: 1.5%;
                 margin-left: 2%;
                 height: 10.2%;
             }
@@ -128,12 +180,38 @@ body {
             }
 
             .Trim {
+                @include Laptop {
+                    bottom: 38px;
+                    padding-top: 1%;
+                }
+
+                @include Tablet {
+                    bottom: 28px;
+                    padding-top: 0;
+                }
+
+                @include Mobile-L {
+                    bottom: 47px;
+                    padding-top: 1.5%;
+                }
+
+                @include Mobile-M {
+                    bottom: 41px;
+                    padding-top: 1.5%;
+                }
+
+                @include Mobile-S {
+                    bottom: 33px;
+                    padding-top: 0;
+                }
+
                 position: relative;
                 bottom: 46px;
                 text-align: center;
                 background-color: #000000cd;
                 color: white;
-                width: 95.5%;
+                width: 96%;
+                padding-top: 1.5%;
                 margin-left: 2%;
                 height: 10%;
             }
@@ -142,6 +220,14 @@ body {
 
     .w-text {
         h1 {
+            @include Mobile-L() {
+                font-size: 28px;
+            }
+
+            @include Mobile-S() {
+                font-size: 25px;
+            }
+
             font-size: 32px;
             color: #000000;
             font-weight: 900;
@@ -235,7 +321,20 @@ body {
             }
         }
 
-        .col-md-5 {
+        .col-lg-5 {
+            @include Laptop() {
+                width: 30%;
+            }
+
+            @include Tablet {
+                width: 90%;
+                height: 340px;
+            }
+
+            @include Mobile-L {
+                height: 300px;
+            }
+
             // flex: 0 0 auto;
             width: 30.666667%;
             height: 292px;
@@ -246,18 +345,45 @@ body {
         .form {
             border: 3px solid #000000;
             border-radius: 2%;
-            .form-control{
+
+            .form-control {
                 width: 80%;
                 margin-left: 9%;
                 margin-top: 5%;
             }
-            a{
-                img{
+
+            a {
+                img {
+                    @include Tablet {
+                        margin-top: -7%;
+                        width: 20%;
+                        margin-left: 38%;
+                    }
+
+                    @include Mobile-L {
+                        margin-top: -11%;
+                    }
+
+                    @include Mobile-S {
+                        margin-top: -13%;
+                    }
+
                     margin-top: -10%;
                     width: 25%;
                     margin-left: 35%;
                 }
             }
+        }
+
+        .btn {
+            border-radius: 0;
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
         }
     }
 }
@@ -279,7 +405,7 @@ body {
 
     .check-content {
         text-align: center;
-        padding-top: 20%;
+        padding-top: 10%;
 
         a {
             font-size: 30px;
@@ -374,6 +500,7 @@ body {
     background-image: url('/img/Discount.png');
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 
     h2 {
         font-size: 36px;
@@ -469,13 +596,20 @@ body {
     }
 
     .img1 img {
+        @include Tablet{
+            height:57px;
+            margin-top: -30px;
+        }
+        @include Mobile-L{
+            width:24% ;
+        }
         position: relative;
         display: block;
         margin-left: auto;
         margin-right: auto;
         z-index: 1;
         border-radius: 70%;
-        width: 33%;
+        width: 30%;
         height: 80px;
         margin-top: -36px;
         border: 5px solid #ffffff;
@@ -656,6 +790,10 @@ body {
 
         .blog1 {
             p {
+                @include Laptop {
+                    padding-left: 0;
+                }
+
                 padding-left: 15px;
                 font-size: 14px;
                 letter-spacing: 0px;
@@ -666,6 +804,10 @@ body {
             }
 
             h6 {
+                @include Laptop {
+                    padding-left: 0;
+                }
+
                 padding-left: 15px;
                 font-size: 16px;
                 letter-spacing: 0px;
@@ -676,4 +818,13 @@ body {
             }
         }
     }
+}
+
+.footer-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Myriad Pro";
 }
