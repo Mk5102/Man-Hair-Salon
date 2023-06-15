@@ -545,23 +545,6 @@ body {
 .shop .row {
   --bs-gutter-x: 0rem;
 }
-.shop .row .image {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-.shop .row .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  background-color: #ffffff;
-  cursor: pointer;
-}
 
 .team {
   text-align: center;
