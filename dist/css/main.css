@@ -433,13 +433,14 @@ body {
   font-family: "Roboto";
   text-align: center;
 }
-.check .check-content .checkservice {
+.check .check-content .btn {
   margin-top: 30px;
   font-size: 22px;
   color: #000000;
   font-weight: 500;
   font-family: "Roboto";
   text-align: center;
+  border-radius: 0;
   background-color: #ffffff;
 }
 
@@ -473,6 +474,28 @@ body {
   font-weight: 500;
   font-family: "Roboto";
   text-align: center;
+}
+.our-service .row h3 {
+  font-size: 22px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+.our-service .row p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #999999;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+}
+.our-service .row :hover {
+  transform: scale(1);
+  border: 3px solid black;
 }
 
 .disc {
@@ -521,6 +544,23 @@ body {
 }
 .shop .row {
   --bs-gutter-x: 0rem;
+}
+.shop .row .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.shop .row .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
 .team {

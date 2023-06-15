@@ -471,13 +471,14 @@ body {
             text-align: center;
         }
 
-        .checkservice {
+        .btn{
             margin-top: 30px;
             font-size: 22px;
             color: #000000;
             font-weight: 500;
             font-family: "Roboto";
             text-align: center;
+            border-radius: 0;
             background-color: #ffffff;
 
         }
@@ -522,6 +523,35 @@ body {
             font-weight: 500;
             font-family: "Roboto";
             text-align: center;
+        }
+
+
+    }
+
+    .row {
+        h3 {
+            font-size: 22px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #000000;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #999999;
+            font-weight: 500;
+            font-family: "Roboto";
+            text-align: center;
+        }
+
+        :hover {
+            transform: scale(1);
+            border: 3px solid black;
         }
     }
 }
@@ -580,6 +610,24 @@ body {
 
     .row {
         --bs-gutter-x: 0rem;
+
+        .image{
+            display: block;
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
     }
 }
 
@@ -733,9 +781,10 @@ body {
 
     .list {
         p {
-            @include Laptop{
+            @include Laptop {
                 text-align: left;
             }
+
             font-size: 20px;
             line-height: 25px;
             color: #000000;
