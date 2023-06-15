@@ -7,6 +7,13 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://kit.fontawesome.com/33202b736b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./dist/css/main.css">
 </head>
@@ -14,7 +21,7 @@
 <body>
 
   <!-- home -->
-  <section class="home">
+  <section class="home" style="background-image: url('./img/Home background.png');">
     <nav class="navbar navbar-expand-lg bg-body-dark px-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -131,7 +138,7 @@
             <div class="tech">
               <div class="head">
                 <h1>01</h1>
-                <p>CUTTING TECHNIQUES</p>
+                <p class="ps-5">CUTTING TECHNIQUES</p>
               </div>
               <div class="underline"></div>
               <p class="pt-3">Lorem ipsum dolor sit amet, consece
@@ -145,7 +152,7 @@
             <div class="care">
               <div class="head">
                 <h1>02</h1>
-                <p>Care For Your Hair</p>
+                <p class="ps-5">Care For Your Hair</p>
               </div>
               <div class="underline"></div>
               <p class="pt-3">Lorem ipsum dolor sit amet, consece
@@ -161,7 +168,7 @@
         <form action="">
           <div class="">
             <a href="">
-              <img src="./img/Mustache.png" alt="">   
+              <img src="./img/Mustache.png" alt="">
             </a>
           </div>
           <input type="text" class="form-control mb-3" id="name" placeholder="Full Name">
@@ -295,36 +302,38 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod arcu euismod nibh tincidunt.
     </p>
     <div class="row px-3 pt-2">
-      <div class="col-md-4 px-1 py-2">
-        <div class="card">
-          <div class="img"><img src="./img/Card1.png" class="card-img-top" alt="..."></div>
-          <div class="img1"><img src="./img/card1-2.png" class="card-img-top" alt="..."></div>
-          <div class="card-body">
-            <h3>Justinn Henderson</h3>
-            <h6>Trimming</h6>
-            <a href="#" class="btn btn-light mt-4 px-0">Book Now</a>
+      <div class="owl-carousel owl-theme">
+        <div class="col-md-4 px-1 py-2" style="width: 100%;">
+          <div class="card">
+            <div class="img"><img src="./img/Card1.png" class="card-img-top" alt="..."></div>
+            <div class="img1"><img src="./img/card1-2.png" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h3>Justinn Henderson</h3>
+              <h6>Trimming</h6>
+              <a href="#" class="btn btn-light mt-4 px-0">Book Now</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 px-1 py-2">
-        <div class="card">
-          <div class="img"><img src="./img/card2.png" class="card-img-top" alt="..."></div>
-          <div class="img1"><img src="./img/card2-2.png" class="card-img-top" alt="..."></div>
-          <div class="card-body">
-            <h3>Justinn Henderson</h3>
-            <h6>Hair Style</h6>
-            <a href="#" class="btn btn-dark mt-4 px-0">Book Now</a>
+        <div class="col-md-4 px-1 py-2" style="width: 100%;">
+          <div class="card">
+            <div class="img"><img src="./img/card2.png" class="card-img-top" alt="..."></div>
+            <div class="img1"><img src="./img/card2-2.png" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h3>Justinn Henderson</h3>
+              <h6>Hair Style</h6>
+              <a href="#" class="btn btn-dark mt-4 px-0">Book Now</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 px-1 py-2">
-        <div class="card">
-          <div class="img"><img src="./img/Card3.png" class="card-img-top" alt="..."></div>
-          <div class="img1"><img src="./img/card3-2.png" class="card-img-top" alt="..."></div>
-          <div class="card-body">
-            <h3>Justinn Henderson</h3>
-            <h6>Shaving</h6>
-            <a href="#" class="btn btn-light mt-4 px-0">Book Now</a>
+        <div class="col-md-4 px-1 py-2" style="width: 100%;">
+          <div class="card">
+            <div class="img"><img src="./img/Card3.png" class="card-img-top" alt="..."></div>
+            <div class="img1"><img src="./img/card3-2.png" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h3>Justinn Henderson</h3>
+              <h6>Shaving</h6>
+              <a href="#" class="btn btn-light mt-4 px-0">Book Now</a>
+            </div>
           </div>
         </div>
       </div>
@@ -357,20 +366,41 @@
       </div>
       <div class="row list pt-2">
         <div class="col-md-6">
-          <p>Shampoo + Cut ......................................................... $25.00</p>
-          <p>Long Layered Cut ...................................................... $28.00</p>
-          <p>Regular Haircut ......................................................... $25.00</p>
-          <p>Fade + Hot Towel ...................................................... $19.00</p>
-          <p>Children's Haircut ....................................................... $22.00</p>
-          <p>Shaving Normal ......................................................... $15.00</p>
+          <p>Shampoo + Cut <span class="dots">.........................................................</span>
+            <strong>$25.00</strong>
+          </p>
+          <p>Long Layered Cut <span>......................................................</span>
+            <strong>$28.00</strong>
+          </p>
+          <p>Regular Haircut <span>.........................................................</span>
+            <strong>$25.00</strong>
+          </p>
+          <p>Fade + Hot Towel <span>......................................................</span>
+            <strong>$19.00</strong>
+          </p>
+          <p>Children's Haircut <span>.......................................................</span>
+            <strong>$22.00</strong>
+          </p>
+          <p>Shaving Normal <span>.........................................................</span>
+            <strong>$15.00</strong>
+          </p>
         </div>
         <div class="col-md-6">
-          <p>Crew Cut + Shape-up ................................................ $35.00</p>
-          <p>Senior Citizen Cut ..................................................... $28.00</p>
-          <p>Crew Cut + Hot Towel ............................................... $25.00</p>
-          <p>Beard Trim with Razor .............................................. $37.00</p>
-          <!-- <p>Styling ......................................................................... $18.00</p>
-          <p>Color .......................................................................... $45.00</p> -->
+          <p>Crew Cut + Shape-up <span>................................................</span> <strong>$35.00</strong>
+          </p>
+          <p>Senior Citizen Cut <span>.....................................................</span>
+            <strong>$28.00</strong>
+          </p>
+          <p>Crew Cut + Hot Towel <span>...............................................</span> <strong>$25.00</strong>
+          </p>
+          <p>Beard Trim with Razor <span>..............................................</span> <strong>$37.00</strong>
+          </p>
+          <p>Styling <span>.........................................................................</span>
+            <strong>$18.00</strong>
+          </p>
+          <p>Color <span>..........................................................................</span>
+            <strong>$45.00</strong>
+          </p>
         </div>
       </div>
       <a href="#" class="btn btn-dark mt-3 py-1 px-5">All Prices</a>
@@ -451,6 +481,36 @@
     Copyright © Toshal Infotech 2020, All Rights Reserved.
   </div>
 
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>
